@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript.Objects.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript.Objects", "TypeScript.Objects\TypeScript.Objects.csproj", "{ACB0883C-4534-490C-AC4C-B716CBA26F3C}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TypeScript.AstBuilder", "TypeScript.AstBuilder\TypeScript.AstBuilder.esproj", "{8D6685A1-A120-4026-9335-E35226B7CF96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsnc", "tsnc\tsnc.csproj", "{60C68F66-1AC5-4679-B634-2BF21223DAC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +41,10 @@ Global
 		{ACB0883C-4534-490C-AC4C-B716CBA26F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB0883C-4534-490C-AC4C-B716CBA26F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB0883C-4534-490C-AC4C-B716CBA26F3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D6685A1-A120-4026-9335-E35226B7CF96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{60C68F66-1AC5-4679-B634-2BF21223DAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C68F66-1AC5-4679-B634-2BF21223DAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C68F66-1AC5-4679-B634-2BF21223DAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C68F66-1AC5-4679-B634-2BF21223DAC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

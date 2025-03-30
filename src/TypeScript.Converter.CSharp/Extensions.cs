@@ -29,7 +29,7 @@ namespace TypeScript.Converter.CSharp
 
 
     #region Syntax Tree Node Extension
-    internal static class SyntaxTreeNodeExtension
+    public static class SyntaxTreeNodeExtension
     {
         /// <summary>
         /// Convert to csharp code.

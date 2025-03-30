@@ -1,13 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>Typescript</RootNamespace>
     <!--<IncrementVersionOnBuild>1.yyyy.Mdd.Hmm</IncrementVersionOnBuild>-->
   </PropertyGroup>
+
   <!-- Default to an appropriate rid for the current platform, if none was specified. -->
   <PropertyGroup Condition=" '$(RuntimeIdentifier)' == '' AND $([MSBuild]::IsOsPlatform('Windows'))">
     <RuntimeIdentifier Condition=" '$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)' == 'X64' ">win-x64</RuntimeIdentifier>
@@ -28,6 +29,10 @@
     <PackageReference Include="Microsoft.JavaScript.LibNode" Version="20.1800.203" />
     <PackageReference Include="Microsoft.JavaScript.NodeApi" Version="0.9.10" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TypeScript.Converter.CSharp\TypeScript.Converter.CSharp.csproj" />
+    <ProjectReference Include="..\TypeScript.Syntax\TypeScript.Syntax.csproj" />
   </ItemGroup>
 
 </Project>

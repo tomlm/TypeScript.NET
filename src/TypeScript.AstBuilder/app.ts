@@ -6,6 +6,7 @@ import { TsAstBuilder, TsAstBuilderProject } from './TsAstBuilder';
 namespace tools {
     export class Program {
         public static main(args: string[]): void {
+            args = ["S:/scratch/js/src", "S:/scratch/js/output"];
             if (args.length != 2) {
                 Program.showUsage();
             } else {
